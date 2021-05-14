@@ -9,5 +9,5 @@
 ## Commands
 
 - **Ex commands** - commands run from `:` prompt like `:{command}`. E.g: `:help`. Use `:help ex-cmd-index` to view the exhaustive list.
-- **Mapped commands** - 
-- **Editing commands** - 
+- **Mapped commands** - commands, which are mapped or bound to some keys for easier access.
+- **Editing commands** - commands which you’ll usually use in Normal and Insert mode.
