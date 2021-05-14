@@ -8,6 +8,6 @@
 
 ## Commands
 
-- ** Ex commands - commands run from `:` prompt like `:{command}`. E.g: `:help`. Use `:help ex-cmd-index` to view the exhaustive list.
-- ** Mapped commands - 
-- ** Editing commands - 
+- **Ex commands** - commands run from `:` prompt like `:{command}`. E.g: `:help`. Use `:help ex-cmd-index` to view the exhaustive list.
+- **Mapped commands** - 
+- **Editing commands** - 
