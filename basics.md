@@ -59,10 +59,11 @@ These can be expanded and give you even more power:
 
 ### Talking to Vim
 
-• Delete the current word: `dw` (delete word from cursor position to the end of the word) 
-• Change current sentence: `cis` (change inside sentence)
-• Change a string inside quotes: `ci"` (change inside quote)
-• Change until next occurrence of ‘hello’: `c/hello` (change search hello)
-• Change everything from here to the letter Y: `ctY` (change until Y)
-• Visually select this paragraph: `vap` (visual around paragraph)
+- Delete the current word: `dw` (delete word from cursor position to the end of the word) 
+- Change current sentence: `cis` (change inside sentence)
+- Change a string inside quotes: `ci"` (change inside quote)
+- Change until next occurrence of ‘hello’: `c/hello` (change search hello)
+- Change everything from here to the letter Y: `ctY` (change until Y)
+- Visually select this paragraph: `vap` (visual around paragraph)
+
 
