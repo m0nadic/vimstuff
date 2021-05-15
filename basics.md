@@ -13,5 +13,40 @@
 - **Editing commands** - commands which you’ll usually use in Normal and Insert mode.
 
 
-## Navigation
+## Language Elements
+
+### Verbs
+
+#### Single character effect
+- `x` - delete character under the cursor to the right
+- `X` - delete character under the cursor to the left
+- `r` - replace character under the cursor with another character
+- `s` - delete character under the cursor and enter the Insert mode
+
+#### Multi character effect
+
+- `y` - yank (copy)
+- `c` - change
+- `d` - delete
+- `v` - visually select (not really a verb, but used with verbs)
+
+### Modifiers
+Modifiers are used right before nouns, so you can describe how you want to influence the nouns. 
+
+- `i` - inner (inside)
+- `a` - a (around)
+- `NUM` - number (e.g.: 1, 2, 10)
+- `t` - searches for something and stops before it (search until) • f - searches for that thing and lands on it (find)
+- `/` - find a string (literal or regular expression)
+
+### Nouns
+
+- `w,W` - start of next word or WORD
+- `b,B` - start of previous word or WORD (start of word before) • e,E - end of word or WORD
+- `s` - sentence
+- `p` - paragraph
+- `t` - tag (in context of HTML/XML)
+- `b` - block (in context of programming)
+- `h,j,k,l` - left, down, up, right
+
 
