@@ -48,5 +48,21 @@ Modifiers are used right before nouns, so you can describe how you want to influ
 - `t` - tag (in context of HTML/XML)
 - `b` - block (in context of programming)
 - `h,j,k,l` - left, down, up, right
+- `$` - end of line
+- `^,0` - start of line
 
+These can be expanded and give you even more power:
+- `aw` - a (complete) word
+- `as` - a (complete) sentence • ap - a (complete) paragraph • iw - inner word
+- `is` - inner sentence
+- `ip` - inner paragraph
+
+### Talking to Vim
+
+• Delete the current word: `dw` (delete word from cursor position to the end of the word) 
+• Change current sentence: `cis` (change inside sentence)
+• Change a string inside quotes: `ci"` (change inside quote)
+• Change until next occurrence of ‘hello’: `c/hello` (change search hello)
+• Change everything from here to the letter Y: `ctY` (change until Y)
+• Visually select this paragraph: `vap` (visual around paragraph)
 
