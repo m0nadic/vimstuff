@@ -65,5 +65,16 @@ These can be expanded and give you even more power:
 - Change until next occurrence of ‘hello’: `c/hello` (change search hello)
 - Change everything from here to the letter Y: `ctY` (change until Y)
 - Visually select this paragraph: `vap` (visual around paragraph)
+- Delete a line: `dd`
+- Delete to the next word: `dw`
+- Delete the whole current word: `daw`
+- Delete up until the next comma (,) on the current line: `dt,`
+- Delete to the end of the current word: `de`
+- Delete to the end of next word: `d2e`
+- Delete down a line (current and one below): `dj`
+- Delete up until next closing parenthesis: `dt)`
+- Delete up until the first search match for “rails”: `d/rails`
+- Jump 3 words from cursor forward and delete next 2 words: `3wd2w`
+- Delete a word from cursor to beginning of a word, including the character under cursor: `dvb`
 
 
